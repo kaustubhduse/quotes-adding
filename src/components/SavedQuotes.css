@@ -1,0 +1,65 @@
+
+
+.saved-quotes {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #91f7cb;
+    width: 100%;
+    
+  }
+  
+.saved-quotes .total{
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: right;
+}
+  
+  .saved-quotes p {
+    font-size: 1.1em;
+    margin-bottom: 2px;
+    
+  } 
+
+  .quote-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: -30px;
+  }
+  
+  .quote-number {
+    font-weight: bold;
+    margin-right: 0px;
+    font-size: x-large;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+ 
+  
+  .delete {
+    margin-left: 500px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+
+  .delete:hover {
+    background-color: darkred;
+  }
+  
+  button:hover {
+    background-color: #ff1a1a;
+  }
