@@ -58,9 +58,11 @@ const SavedQuotes = ({ fetchTrigger }) => {
       setSavedQuotes((prevQuotes) =>
         prevQuotes.filter((quote) => quote.id !== id)
       );
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (error) {
       console.error("Error deleting the quote:", error);
     }
+
     setIsDeleteLoading(false);
   };
 
